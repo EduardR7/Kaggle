@@ -1,4 +1,4 @@
-![image alt="drawing" width="100"](https://github.com/EduardR7/Kaggle/assets/126398449/4888921d-1aa9-4cdc-b5d6-640d860cb3c7)
+![image alt="drawing" width="100"](https://github.com/EduardR7/Kaggle/assets/126398449/300f0d2a-861b-4602-908e-a9d63364da77)
 ## [CAFA 5 Protein Function Prediction, leaderboard](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/leaderboard)
 
 ##### Наша команда предварительно заняла 103 место из 1675, бронзовая медаль. Окончательные итоги будут приведены после 22 декабря 2023 года.
