@@ -23,18 +23,13 @@
 
 ##  3. Личный объем участия
 
-More details is available on [competition data page](https://www.kaggle.com/competitions/cafa-5-protein-function-prediction/data).
+>  В самостоятельно части соревнования я корректировал блокнот и подготавливал эмбединги для дальнейшей оптимизации. Для расчета использовались ноутбуки на основе baseline организаторов и других участников, доработанные с учетом собственного понимания оптимального решения, главным образом изменяя параметры PyTorch модели.
+>  Для получения более широкого спектра результатов, подходящих для финального блендинга, я использовал нестандартные соотношения GO namespaces, отличные от - {'BPO': 1100, 'MFO': 450, 'CCO': 300}.
+>  Данные соотношения принимались как submission файлы, давали хороший скор на LB (Leaderboard), однако, при проведении финального блендинга было необходимо привести их к общему виду.
+>  Для этого я подготовил блокнот, который обеспечивал конвертацию и приведение файлов с нестандартными соотношениями namespaces к общему виду и их последующий блендинг.
+>  В ходе соревнования, один из моих скорингов, оказался лучшим для нашей команды и обеспечил бронзовую медаль в предварительной части, с public test.
+Окончательный результат будет объявлен в декабре, когда компания CAFA проведет полный цикл обследований и получит полный (private) тестовый набор.
 
-| File | Contents |
-|:---:|---|
-|**train_sequences.fasta**|amino acid sequences for proteins in training set|
-|**train_terms.tsv**|the training set of proteins and corresponding annotated GO terms|
-|**train_taxonomy.tsv**|taxon ID for proteins in training set|
-|**go-basic.obo**|ontology graph structure|
-|**testsuperset.fasta**|amino acid sequences for proteins on which the predictions should be made|
-|**testsuperset-taxon-list.tsv**|taxon ID for proteins in test superset (Note: you may need to use `encoding="ISO-8859-1"` to read this file in `pandas`)|
-|**IA.txt** |Information Accretion for each term. This is used to weight precision and recall (see Evaluation)|
-|**sample_submission.csv**|a sample submission file in the correct format|
 
 ## Protein Sequences Embedding (From discussion)
 
